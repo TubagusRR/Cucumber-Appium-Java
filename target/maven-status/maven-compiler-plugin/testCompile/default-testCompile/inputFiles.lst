@@ -1,3 +1,14 @@
-D:\AutomationTesting\TestCucumber\src\test\java\runner\TestRunner.java
+D:\AutomationTesting\TestCucumber\src\test\java\pages\scrollPage.java
+D:\AutomationTesting\TestCucumber\src\test\java\steps\ScrollStep.java
 D:\AutomationTesting\TestCucumber\src\test\java\steps\MyStepdefs.java
-D:\AutomationTesting\TestCucumber\src\test\java\setups\BaseClass.java
+D:\AutomationTesting\TestCucumber\src\test\java\test\chipViewTest.java
+D:\AutomationTesting\TestCucumber\src\test\java\test\scrollTest.java
+D:\AutomationTesting\TestCucumber\src\test\java\test\BaseClass.java
+D:\AutomationTesting\TestCucumber\src\test\java\runner\TestRunner.java
+D:\AutomationTesting\TestCucumber\src\test\java\utils\ExtentReport\BaseTest.java
+D:\AutomationTesting\TestCucumber\src\test\java\test\DownloadAppTest.java
+D:\AutomationTesting\TestCucumber\src\test\java\pages\DownloadAppPage.java
+D:\AutomationTesting\TestCucumber\src\test\java\pages\chipViewPage.java
+D:\AutomationTesting\TestCucumber\src\test\java\steps\Hooks.java
+D:\AutomationTesting\TestCucumber\src\test\java\test\ExtentReportDemo.java
+D:\AutomationTesting\TestCucumber\src\test\java\utils\ExtentReport\GetScreenShot.java
