@@ -25,7 +25,7 @@ public class scrollPage {
     }
 
     By app = By.id("com.android.vending:id/cta_button");
-    @AndroidFindBy(id = "com.android.vending:id/mini_blur")
+    @AndroidFindBy(id = "com.android.vending:id/li_thumbnail")
     private MobileElement home;
 
     public void scrollDownUntilFound() throws Exception {

@@ -21,25 +21,25 @@ import runner.TestRunner;
 
 public class ScrollStep extends BaseClass {
     DownloadAppPage dp = new DownloadAppPage(driver);
-    scrollPage sp = new scrollPage(driver);
+    scrollPage scrollpage = new scrollPage(driver);
 
     @Given("^Playstore Opened$")
     public void playstoreOpened() throws Exception {
-        ExtentTest loginfo=null;
         try{
-            sp.waitApp(driver);
+            WebDriverWait wait = new WebDriverWait(driver, 20);
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.id("com.android.vending:id/li_thumbnai")));
         }catch(Exception e){
-            Assert.fail();
             e.printStackTrace();
+            Assert.fail();
         }
     }
 
     @Then("^User Scrolling Down Until Element Found$")
     public void userScrollingDown() throws Exception {
-        sp.scrollDownUntilFound();
+        scrollpage.scrollDownUntilFound();
     }
 
-    @After({"@Playstore"})
+    @After({"@Scroll"})
     public void stop(){
         TearDown();
     }

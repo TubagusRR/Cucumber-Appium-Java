@@ -6,9 +6,9 @@ test\chipViewTest.class
 pages\DownloadAppPage.class
 test\DownloadAppTest.class
 utils\ExtentReport\GetScreenShot.class
-stepDefinitions\Hooks.class
 steps\MyStepdefs.class
 test\ExtentReportDemo.class
 utils\ExtentReport\BaseTest.class
+steps\Hooks.class
 runner\TestRunner.class
 steps\ScrollStep.class
